@@ -13,8 +13,9 @@ pip install -r requirements.txt -i https://mirror.baidu.com/pypi/simple
 
 ## Setup the Model
 Place both OCR detection model & recognition model in the "model" file 
-you can also download the model from https://github.com/PaddlePaddle/PaddleOCR
-![download_model](./model/download_model.png)
+you can also download the model from https://github.com/PaddlePaddle/PaddleOCR  
+
+![download_model](model/download_model.png)
 
 
 ## Run 
@@ -28,4 +29,5 @@ python interface.py --image_dir="./train_OCR_img_test" --det_model_dir="./model/
 ```
 
 ## Result
+
 ![result](./inference_results/IMG_20190403_084205.jpg)
